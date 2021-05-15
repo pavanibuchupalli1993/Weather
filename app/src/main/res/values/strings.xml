@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="search">Enter the query to search .. </string>
+
+    <!--Notification SnackBar -->
+    <string name="error_msg">Sorry, we can’t process your request right now. Please try again, later.</string>
+    <string name="no_internet_error_msg">No internet connection available. Please check the connection and try again, later.</string>
+
+    <string name="search_no_result_found">No results found</string>
+    <string name="recent_search">Recent searched cities : </string>
+
+    <string name="area">City : </string>
+    <string name="humidity">Humidity : </string>
+    <string name="weather">Weather : </string>
+    <string name="temperature">Temperature : </string>
+
+
+</resources>

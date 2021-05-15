@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_color"
+    android:gravity="top|center_horizontal"
+    android:padding="@dimen/page_margin_24">
+    <TextView
+        android:id="@+id/tvAreaName"
+        style="@style/style_title_sub_header"
+        android:layout_width="wrap_content"
+        android:text="pulivendula"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/llytWeatherImage"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tvAreaName"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/page_margin_36"
+        android:layout_marginBottom="@dimen/page_margin_24"
+        android:gravity="center_horizontal"
+        android:weightSum="1"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imgViewWeatherImage"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_weight=".5"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:id="@+id/tvTemperature"
+            style="@style/style_title_sub_header"
+            android:layout_width="wrap_content"
+            android:textSize="25sp"
+            android:text="45"
+            android:padding="20dp"
+            android:layout_weight=".5"
+
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llytHumidity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llytWeatherImage"
+        android:layout_marginTop="@dimen/view_padding_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvHumidityLabel"
+            style="@style/style_title_sub_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/view_padding_10"
+            android:layout_marginRight="@dimen/view_padding_10"
+            android:text="@string/humidity" />
+
+        <TextView
+            android:id="@+id/tvHumidity"
+            style="@style/style_title_sub_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llytWeatherDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/llytHumidity"
+        android:layout_marginTop="@dimen/view_padding_10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvWeatherDescLabel"
+            style="@style/style_title_sub_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/view_padding_10"
+            android:layout_marginRight="@dimen/view_padding_10"
+            android:text="@string/weather" />
+
+
+        <TextView
+            android:id="@+id/tvWeatherDesc"
+            style="@style/style_title_sub_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:minWidth="75dp"
+        android:minHeight="75dp" />
+
+</RelativeLayout>

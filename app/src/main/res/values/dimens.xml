@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--Button View-->
+
+
+    <!--Edit Text View-->
+
+
+    <!--Toolbar height -->
+
+    <!--Padding and Margin-->
+    <dimen name="page_margin_24">24dp</dimen>
+    <dimen name="page_margin_36">36dp</dimen>
+    <dimen name="view_margin_16">16dp</dimen>
+    <dimen name="view_padding_10">10dp</dimen>
+
+
+    <dimen name="margin">10dp</dimen>
+    <dimen name="margin_top">25dp</dimen>
+    <dimen name="search_height">40dp</dimen>
+
+    <dimen name="box_height">50dp</dimen>
+
+    <dimen name="img_size">180dp</dimen>
+    <dimen name="margin_top_weather">50dp</dimen>
+
+    <dimen name="card">5dp</dimen>
+
+    <dimen name="weather_image">80dp</dimen>
+
+    <!--Icon-->
+    <dimen name="weather_icon">120dp</dimen>
+    <dimen name="back_icon">30dp</dimen>
+    <dimen name="small_icons">25dp</dimen>
+    <dimen name="list_icons">35dp</dimen>
+
+
+    <!--paragraph spaces -->
+    <dimen name="paragraph_space_10">5sp</dimen>
+    <dimen name="paragraph_space_12">6sp</dimen>
+    <dimen name="paragraph_space_8">4sp</dimen>
+
+
+    <!--Text Size-->
+    <dimen name="text_title_16">17sp</dimen>
+    <dimen name="text_title_20">21sp</dimen>
+
+    <!--Text Size-->
+
+    <!--CardView-->
+    <dimen name="card_view_radius">12dp</dimen>
+    <dimen name="card_view_elevation_info_layout">8dp</dimen>
+
+
+    <!--Spinner View-->
+    <dimen name="spinner_view_radius">10dp</dimen>
+
+
+    <!--Font-->
+    <dimen name="normal">28sp</dimen>
+    <dimen name="small">20sp</dimen>
+    <dimen name="large">35sp</dimen>
+    <dimen name="list">16sp</dimen>
+    <dimen name="list_small">14sp</dimen>
+
+</resources>
