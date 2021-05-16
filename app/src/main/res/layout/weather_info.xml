@@ -51,11 +51,12 @@
                 android:layout_weight="1">
 
                 <ImageView
-                    android:id="@+id/imageView2"
+                    android:id="@+id/image_humidity"
                     android:layout_width="@dimen/small_icons"
                     android:layout_height="@dimen/small_icons"
                     android:layout_centerVertical="true"
                     android:layout_marginRight="10dp"
+                    android:visibility="gone"
                     android:layout_toLeftOf="@+id/tv_humidity"
                     android:src="@drawable/humidity" />
 
@@ -78,11 +79,13 @@
                 android:layout_weight="1">
 
                 <ImageView
-                    android:id="@+id/imageView3"
+                    android:id="@+id/image_temperature"
                     android:layout_width="25dp"
                     android:layout_height="25dp"
                     android:layout_centerVertical="true"
+
                     android:layout_marginRight="10dp"
+                    android:visibility="gone"
                     android:layout_toLeftOf="@+id/tv_temperature"
                     android:src="@drawable/ic_temp"
                    />

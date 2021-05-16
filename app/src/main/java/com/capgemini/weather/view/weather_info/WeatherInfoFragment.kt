@@ -89,6 +89,8 @@ class WeatherInfoFragment : BaseFragment() {
             .error(android.R.drawable.ic_menu_gallery)
             .into(binding.imgWeather)
 
+        binding.imageHumidity.visibility=View.VISIBLE
+        binding.imageTemperature.visibility=View.VISIBLE
         binding.txtCityName.text = weatherApiResponseModel.data.request[0].query.toString()
         binding.tvHumidity.text = currentCondition.humidity.toString()
         binding.txtWeather.text = currentCondition.weatherDesc[0].value
